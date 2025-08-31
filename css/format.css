@@ -16,3 +16,29 @@ header {
     grid-area: header;
 }
 
+.top-nav {
+    grid-area: nav;
+}
+
+.products {
+    grid-area: prod;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer {
+    grid-area: footer;
+}
+
+img {
+    max-width: 6em;
+}
+
+.nav-list {
+    display: flex;
+    /* flex-direction: column; */
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
