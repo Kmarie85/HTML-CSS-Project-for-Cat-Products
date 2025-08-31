@@ -13,7 +13,19 @@ body {
 
 
 header {
+    display: flex;
+    flex-direction: 
+    row-reverse;
+    justify-content: 
+    space-around;
     grid-area: header;
+    /* background-image: png ;
+    static/images/Screenshot 2025-08-31 at 11.27.50 AM.png; */
+
+}
+
+#logo {
+    max-height: 4.8em;
 }
 
 .top-nav {
@@ -41,4 +53,12 @@ img {
     list-style-type: none;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+
+@media (min-width: 600px) {
+    body{
+        grid-template-columns: .4em 
+        repeat(4, 1em) .4em;
+    }
 }
